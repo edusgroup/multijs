@@ -1,0 +1,38 @@
+{
+  "name": "multijs",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Kozlenko Vitaliy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --env.entry=crypt --port 8529 --mode development --config webpack.dev.config.js --hot",
+    "prod": "webpack --mode production --config webpack.prod.config.js",
+    "hard-update": "ncu"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^4.2.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "cache-loader": "^4.1.0"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src"
+  ]
+}

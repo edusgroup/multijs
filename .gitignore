@@ -1,0 +1,6 @@
+.idea/
+dist/
+dev/workdir/
+node_modules/
+.env
+coverage/

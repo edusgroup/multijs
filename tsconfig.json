@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "module": "es6",
+    "target": "es6",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "lib": [
+      "es5",
+      "es2017",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@wumvi/fileupload/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "dev"
+  ]
+}
